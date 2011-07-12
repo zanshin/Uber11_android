@@ -1,0 +1,35 @@
+Lecture 1: UI
+(*) Activities
+(*) Layouts (LinearLayout)
+-- android:layout_width, android:layout_height
+(*) Controls (TextView, EditText, Button (and other controls))
+-- android:id
+-- android:text, hint, minLines, maxLines, other attributes
+(*) Event-handling and wiring
+-- finding controls by id and wiring up anonymous inner class event handlers
+-- using android:onClick to do the same thing more easily
+(*) Toast
+
+Lecture 2: Sending the SMS
+(*) Getting hold of system services (SmsManager)
+(*) Contexts
+(*) BroadcastReceivers
+(*) Intents, Pending Intents, Intent Filters
+(*) Application permissions
+
+Lecture 3: Being really annoying (sending on a schedule)
+(*) Emulator interestingness (telnet to the emulator port)
+(*) Getting hold of system services (AlarmManager)
+(*) BroadcastReceivers
+
+Lecture 4: Adding speech recognition
+(*) Checking to see if the device has speech recognition on it
+(*) Dialogs and AlertDialogs
+(*) Feeding the speech recognizer input
+(*) 
+
+Optional extras:
+(*) Recording audio (Android Recipies 4-6) and sending it via MMS (?)
+(*) Choosing a contact out of your contacts list
+(*) 
+
